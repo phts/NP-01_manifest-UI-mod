@@ -1,0 +1,7 @@
+li[ng-click='browse.playlistService.removeFromPlaylist(item, browse.browseService.currentFetchRequest.title)'],
+li[ng-click='browse.playlistService.addToFavourites(item)'],
+li[ng-click='browse.playlistService.removeFromFavourites(item)'],
+favourite-track-btn,
+.item__favorite {
+  display: none !important;
+}
